@@ -1,57 +1,85 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<HTML lang="en">
 <head>
-	<title>Future_Resume</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/layout.css"/>
-</head>
-<body>
-	<div id="container">
-		<div id="col_left">
-			<div id="id1" align="right">
-				<img id="dp" src="images/avatar.jpg">
-				<br>
-				<br>
-				<p id="name">Owais</p>
-				<p id="designation">Trainee</p>
-				<p id="company">crafted by <u><b>FusionCharts.</b></u></p>
-			</div>
-        </div>
+	<meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width, initil-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+	<title>Personal Page</title>
 	
-	<div id="col_right">
-		<div id="upper">
+	<link rel="stylesheet" href="assets/css/layout.css" type="text/css">
+</head>
+
+<body class="body">
+<div class="container">
+	<aside class="left">
+		<header class="leftHead" style="text-align:right">
+			<img id="dp" src="images/avatar.jpg">
+			<br>
+			<br>
+			<p id="name">Owais</p>
+			<p id="designation">Trainee</p>
+			<p id="company">crafted by <u><b>FusionCharts.</b></u></p>
+		</header>
+		<footer class="leftFoot" style="text-align:right" >
+			<div id="contact1">
+				<i class="fa fa-twitter" id="t1" style="font-size:24px;color:#bababa"></i>
+				<i class="fa fa-github" id="t1" style="font-size:24px;color:#bababa"></i>
+                <i class="fa fa-envelope-o" style="font-size:24px;color:#bababa"></i>
+           </div>
+                
+           <div id="contactSub">
+                <p>©Md Owais   |   Design : <u>FusionCharts</u></p>
+           </div>
+		</footer>
+	</aside>
+	<div class="right">
+		<header class="rightHead">
 			<p class="heading">Ipsum Lorem dolor aliquam ante commodo<br>magna sed accumsan arcu neque.</p>
             <p id="part">Accumsan orci faucibus ed eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer masa adipscing is nisi accumsan pellemtesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
             <br>
             <input type="button" id="learnMore" value="Learn More">
-         </div>
-         <br>
-		 <br>
-		<div id="middle">
-			 <h1 class="heading" ></br>Recent Work</h1>
+		</header>
+		<hr id="line">
+		<div class="mid">
+			<h1 class="heading" >Recent Work</h1>
+			<div class="row1">
 				<div id="w1">
-				<img src="images/thumbs/01.jpg" width="250px" height="150px" class="proj_image" >
-				<p id="title">Project1</p>
-                <p id="subTitle">Subtitle1</p>
+					<img src="images/thumbs/01.jpg" class="proj_image" >
+					<p id="title">Project1</p>
+					<p id="subTitle">Subtitle1</p>
 				</div>
 				<div id="w2">
-				<img src="images/thumbs/02.jpg" width="250px" height="150px" class="proj_image" >
-				<p id="title">Project2</p>
-                <p id="subTitle">Subtitle2</p>
-				</div><div id="w3">
-				<img src="images/thumbs/03.jpg" width="250px" height="150px" class="proj_image" >
-				<p id="title">Project3</p>
-                <p id="subTitle">Subtitle3</p>
-				</div><div id="w4">
-				<img src="images/thumbs/04.jpg" width="250px" height="150px" class="proj_image" >
-				<p id="title">Project4</p>
-                <p id="subTitle">Subtitle4</p>
-				</div><div id="w5">
-				<img src="images/thumbs/05.jpg" width="250px" height="150px" class="proj_image" >
+					<img src="images/thumbs/02.jpg" class="proj_image" >
+					<p id="title">Project2</p>
+					<p id="subTitle">Subtitle2</p>
+				</div>	
+				</div>
+				<div class="row2">
+				<div id="w3">
+					<img src="images/thumbs/03.jpg" class="proj_image" >
+					<p id="title">Project3</p>
+					<p id="subTitle">Subtitle3</p>
+				</div>
+				<div id="w4">
+					<img src="images/thumbs/04.jpg" class="proj_image" >
+					<p id="title">Project4</p>
+					<p id="subTitle">Subtitle4</p>
+				</div>
+				</div>
+				<div class="row3">
+				<div id="w5">
+				<img src="images/thumbs/05.jpg" width="300px" height="150px" class="proj_image" >
 				<p id="title">Project5</p>
                 <p id="subTitle">Subtitle5</p>
-				</div><div id="w6">
-				<img src="images/thumbs/06.jpg" width="250px" height="150px" class="proj_image" >
+				</div>
+				<div id="w6">
+				<img src="images/thumbs/06.jpg" width="300px" height="150px" class="proj_image" >
 				<p id="title">Project6</p>
                 <p id="subTitle">Subtitle6</p>
+				</div>
 				</div>
 				<br>
 				<input type="button" id="portfolio" value="Full Portfolio"></input>
@@ -60,13 +88,15 @@
 		<br>
 		<hr>
 		<br>
-		<div id="lower">
+		<footer id="lower">
 			<h1 class="heading" >Get in Touch</h1>
 			<p id="part">Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi dolor</p>
-	     <form class="response">
-
+	     <div class="lowerpart">
+		 <form class="response">
+			<div class="responseUp">
 	     	<input type="text" id="name1" placeholder="Name"></input>
 	     	<input type="text" id ="email1" placeholder="Email"></input>
+			</div>
 			<br>
 	     	<textarea id="message1" placeholder="Message"></textarea><br>
 	     	<input id="button1" type="button" value="Send Message">
@@ -87,8 +117,8 @@
                    </tr>
                        
            </table>
+		</footer>
 		</div>
 	</div>
 	</div>
-</body>
-</html>
+</HTML>
