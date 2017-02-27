@@ -29,9 +29,6 @@ body
 	margin-top:5%;
 	line-height:1;
 }
-.blank{
-	
-}
 .leftFoot
 {
 	
@@ -77,6 +74,7 @@ body
     font-size: 30px;
 	color:#464b51;
 	margin-top:6%;
+	line-height:1.5;
                 
 }
 #part
@@ -85,6 +83,7 @@ body
     font-size: 120%;
     color: #848991;
     padding-top: 5px;
+	line-height:1.5;
 }
 #line{
 	margin-top:6%;
@@ -138,7 +137,7 @@ body
 @media only screen and (min-width: 150px) and (max-width: 600px)
 {
 	.container{
-		width: 98%;
+		width: 100%;
 		font-size: 100%;
 	}
 }
@@ -158,17 +157,21 @@ body
 }
 .address{
 	width:40%;
-	margin-left:10%;
+	margin-left:6%;
 	margin-top:0;
 	padding-top:0;
 	position:relative;
 	top: -20px;
-	vertical-align: text-top;
 }
 .addr{
 	
 	width:20px;
 	height:20px;
+	padding-right:60%;
+}
+#home1{
+	position:relative;
+	top: -15px;
 }
 .font
 {
@@ -309,7 +312,7 @@ body
   top: 50%;
   width: auto;
   padding: 16px;
-  margin-top: 50px;
+  margin-top: -50px;
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -317,6 +320,7 @@ body
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
+
 }
 
 /* Position the "next button" to the right */
