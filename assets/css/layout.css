@@ -71,7 +71,7 @@ body
 .heading
 {
 	font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 28px;
 	color:#464b51;
 	margin-top:5%;
 	line-height:1.5;
@@ -81,7 +81,7 @@ body
 #part
 {
 	font-family: 'Roboto', sans-serif;
-    font-size: 120%;
+    font-size: 14px;
     color: #848991;
     padding-top: 5px;
 	line-height:1.5;
