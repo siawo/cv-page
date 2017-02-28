@@ -75,6 +75,7 @@ body
 	color:#464b51;
 	margin-top:5%;
 	line-height:1.5;
+	font-weight:300;
                 
 }
 #part
@@ -84,6 +85,7 @@ body
     color: #848991;
     padding-top: 5px;
 	line-height:1.5;
+	font-weight:200;
 }
 #line{
 	margin-top:6%;
@@ -98,6 +100,14 @@ body
 	background-color: white;
 	border: 3px solid #41db9b;
 	font-weight:700;
+}
+.heading1
+{
+	font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+	color:#464b51;
+	margin-top:5%;
+	font-weight:500;
 }
 .min{
 	margin-bottom:2%;
@@ -121,6 +131,15 @@ body
 {
 	width:90%;
 	height:60%;
+}
+#title
+{
+	font-family: 'Roboto', sans-serif;
+	color:#464b51;
+}
+#subTitle{
+	font-family: 'Roboto', sans-serif;
+	color: #848991;
 }
 #portfolio
 {
