@@ -136,10 +136,13 @@ body
 {
 	font-family: 'Roboto', sans-serif;
 	color:#464b51;
+	font-size: 14px;
+	font-weight:500;
 }
 #subTitle{
 	font-family: 'Roboto', sans-serif;
 	color: #848991;
+	font-size: 12px;
 }
 #portfolio
 {
